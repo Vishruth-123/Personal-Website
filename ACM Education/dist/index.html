@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1011">
+  <title>Vishruth Yakkanti — Software, AI & Curiosity</title>
+  <meta name="description" content="Vishruth Yakkanti is a Computer Science student at UT Dallas exploring full-stack development, artificial intelligence, research, and robotics.">
+  <meta property="og:title" content="Vishruth Yakkanti — Software, AI & Curiosity">
+  <meta property="og:description" content="Projects, research, skills, and the journey of a Computer Science student at UT Dallas.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="content.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#home" aria-label="Vishruth Yakkanti, home">
+        <svg class="brand-symbol" viewBox="0 0 40 40" aria-hidden="true"><path d="M5 10h7l8 19 8-19h7L20 37 5 10Z" fill="currentColor"/><path d="m20 3 4 6h-8l4-6Z" fill="currentColor" opacity=".5"/></svg>
+        <span>vishruth<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#projects">Work</a><a href="#skills">Skills</a><a href="#journey">Journey</a>
+      </nav>
+      <div class="header-actions">
+        <button class="command-trigger" type="button" aria-label="Open quick navigation" title="Quick navigation (Ctrl or Command + K)"><span>⌘</span><kbd>K</kbd></button>
+        <a class="resume-link" data-resume href="assets/vishruth-yakkanti-resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#about">01 — About</a><a href="#projects">02 — Work</a><a href="#skills">03 — Skills</a><a href="#journey">04 — Journey</a><a href="#contact">05 — Contact</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero shell" id="home" aria-labelledby="hero-name">
+      <div class="hero-topline mono"><span>PERSONAL PORTFOLIO <span class="dim">/ 2026</span></span><span class="hero-location"><span class="tiny-cross">+</span> AUBREY, TEXAS</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE @ UT DALLAS</p>
+          <h1 id="hero-name">Vishruth<br><span>Yakkanti<span class="name-period">.</span></span></h1>
+          <p class="hero-byline">A little curiosity.<br>A world of possibilities.</p>
+          <p class="hero-description" id="hero-description"></p>
+          <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-text" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-footnote"><span class="small-line"></span><p>SOFTWARE DEVELOPMENT <span>×</span> ARTIFICIAL INTELLIGENCE</p></div>
+        </div>
+        <div class="hero-scene" id="hero-scene">
+          <div class="scene-top mono"><span><span class="mini-square"></span> THE CURIOSITY ENGINE</span><span>V.01</span></div>
+          <div class="orbit-stage">
+            <div class="orbit-halo" aria-hidden="true"></div>
+            <div class="scene-cross cross-one" aria-hidden="true">+</div><div class="scene-cross cross-two" aria-hidden="true">+</div>
+            <canvas id="orbit-canvas" aria-hidden="true"></canvas>
+            <div class="scene-label label-ai"><span class="status-dot"></span> AI / ML</div>
+            <div class="scene-label label-dev"><span class="code-bracket">&lt;/&gt;</span> DEVELOPMENT</div>
+            <span class="orbit-coordinate mono" aria-hidden="true">IDEA → EXPERIMENT → ITERATE</span>
+          </div>
+          <div class="scene-bottom mono"><span class="interaction-hint">MOVE TO EXPLORE <span aria-hidden="true">↔</span></span><button class="motion-toggle" type="button" aria-pressed="false"><span class="motion-symbol" aria-hidden="true">Ⅱ</span><span class="motion-text">PAUSE MOTION</span></button></div>
+        </div>
+      </div>
+      <div class="hero-bottom mono"><a href="#about" class="scroll-cue"><span class="scroll-mouse" aria-hidden="true"></span> SCROLL TO DISCOVER</a><span>LEARNING. BUILDING. REPEATING.</span><span class="hero-page">01 <span class="dim">/ 05</span></span></div>
+    </section>
+    <section class="section shell" id="about" aria-labelledby="about-title">
+      <div class="section-label mono"><span>01 / ABOUT</span><span class="label-line"></span><span class="section-aside">THE PERSON BEHIND THE CODE</span></div>
+      <div class="about-grid">
+        <div class="about-copy"><h2 id="about-title">Curiosity, with a<br><span class="muted">practical side.</span></h2><div class="body-copy" id="about-copy"></div><a href="#journey" class="inline-link">A little more about my journey <span aria-hidden="true">↗</span></a></div>
+        <aside class="education-card" aria-label="Current education"><div class="education-top mono"><span>CURRENT CHAPTER</span><span class="status-dot"></span></div><svg class="education-art" viewBox="0 0 260 130" aria-hidden="true"><g fill="none" stroke="currentColor"><path d="m130 22 94 44-94 44-94-44 94-44Z"/><path d="m65 80 0 23q65 35 130 0V80M224 66v39"/><path d="m130 34 68 32-68 32-68-32 68-32Z" opacity=".23"/><circle cx="224" cy="109" r="4"/></g></svg><h3>UT Dallas<span class="brand-dot">.</span></h3><p data-degree></p><div class="education-meta mono"><span>EXPECTED GRADUATION</span><span data-graduation></span></div></aside>
+      </div>
+    </section>
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-label mono"><span>02 / SELECTED WORK</span><span class="label-line"></span><span class="section-aside">IDEAS TAKING SHAPE</span></div>
+      <div class="section-heading"><h2 id="projects-title">Exploration,<br><span class="muted">put into practice.</span></h2><div class="project-filters" role="group" aria-label="Filter projects"><button class="filter active" type="button" data-filter="All" aria-pressed="true">All work</button><button class="filter" type="button" data-filter="Research" aria-pressed="false">Research</button><button class="filter" type="button" data-filter="Robotics" aria-pressed="false">Robotics</button></div></div>
+      <div class="project-grid" id="project-grid"></div><p class="sr-only" id="project-announcement" role="status" aria-live="polite"></p>
+    </section>
+    <section class="section shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-label mono"><span>03 / THE TOOLKIT</span><span class="label-line"></span><span class="section-aside">TOOLS FOR WHAT COMES NEXT</span></div>
+      <div class="section-heading"><h2 id="skills-title">Different tools.<br><span class="muted">The same curiosity.</span></h2><p class="section-description">The languages, libraries, and tools<br>I bring to the table.</p></div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+    <section class="section shell" id="journey" aria-labelledby="journey-title">
+      <div class="section-label mono"><span>04 / THE JOURNEY</span><span class="label-line"></span><span class="section-aside">A FOUNDATION IN PROGRESS</span></div>
+      <div class="journey-layout"><div class="journey-intro"><h2 id="journey-title">Learning is<br><span class="muted">a team sport.</span></h2><p>Education, student communities, and opportunities to keep growing.</p><a class="inline-link" data-resume href="assets/vishruth-yakkanti-resume.pdf" target="_blank" rel="noopener">View full résumé <span aria-hidden="true">↗</span></a></div><div class="timeline" id="timeline"></div></div>
+      <div class="study-row"><span class="mono">AREAS OF STUDY</span><div id="study-areas"></div></div>
+      <div class="recognition"><div class="recognition-heading"><h3>Milestones along the way<span class="brand-dot">.</span></h3><span class="mono dim">RECOGNITION & CREDENTIALS</span></div><div class="credentials" id="credentials"></div></div>
+    </section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell"><div class="section-label mono"><span>05 / WHAT’S NEXT</span><span class="label-line"></span><span class="section-aside">LET’S START A CONVERSATION</span></div><div class="contact-grid"><div><p class="eyebrow">GOOD IDEAS START WITH A HELLO</p><h2 id="contact-title">Let’s build<br><span>what’s next.</span><svg class="contact-arrow" viewBox="0 0 80 80" aria-hidden="true"><path d="M12 68 68 12M12 12h56v56" fill="none" stroke="currentColor" stroke-width="5"/></svg></h2></div><div class="contact-details"><p>Have a project in mind, an interesting opportunity, or a question? I’d love to hear from you.</p><a class="email-link" id="contact-email" href="mailto:vishyakkanti@gmail.com"></a><div class="contact-actions"><a class="button button-primary" id="email-button" href="mailto:vishyakkanti@gmail.com">Say hello <span aria-hidden="true">↗</span></a><button class="copy-email" type="button"><span data-icon="copy" aria-hidden="true"></span><span>Copy email</span></button></div><div class="social-links" id="social-links"></div></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><a class="footer-name" href="#home">Vishruth Yakkanti<span class="brand-dot">.</span></a><span class="mono footer-note">A WORK IN PROGRESS. JUST LIKE ME.</span><a href="https://ecs.utdring.com/" target="_blank" rel="noopener noreferrer" class="webring-link"><svg viewBox="0 0 28 28" aria-hidden="true"><ellipse cx="14" cy="14" rx="12" ry="6" transform="rotate(-35 14 14)"/><ellipse cx="14" cy="14" rx="12" ry="6" transform="rotate(35 14 14)"/></svg>Explore the UTD Webring <span aria-hidden="true">↗</span></a><a href="#home" class="back-top" aria-label="Back to top">↑</a></div></footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div id="project-dialog-content"></div></dialog>
+  <dialog class="command-dialog" id="command-dialog" aria-labelledby="command-title"><h2 id="command-title" class="sr-only">Quick navigation</h2><div class="command-search"><span aria-hidden="true">⌕</span><input id="command-search" type="search" placeholder="Where would you like to go?" aria-label="Search portfolio sections and links" autocomplete="off"><button class="command-close" type="button" aria-label="Close quick navigation"><kbd>esc</kbd></button></div><div class="command-results" id="command-results" role="group" aria-label="Navigation results"></div><div class="command-footer mono">↑ ↓ TO MOVE <span>↵ TO OPEN</span></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-message">Please enable JavaScript to explore this portfolio. You can also <a href="assets/vishruth-yakkanti-resume.pdf">read my résumé</a> or <a href="mailto:vishyakkanti@gmail.com">send me an email</a>.</div></noscript>
+</body>
+</html>
